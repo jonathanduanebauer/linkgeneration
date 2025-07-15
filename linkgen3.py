@@ -6,10 +6,10 @@ import pandas as pd
 from elevenlabs.client import ElevenLabs
 
 # Set ElevenLabs API key
-client = ElevenLabs(api_key="sk_728a519a8615ae5817cc33cefd4bfc59fc40b6d5bafac70b")
+client = ElevenLabs(api_key="put eleven labs api here")
 
 # Voice ID for V2
-VOICE_ID = "NiLLkhVjAqnvNUZHMpdJ"
+VOICE_ID = "put voice id here"
 
 # File paths
 CSV_PATH = "/home/ftpuser/links/80s.csv"
@@ -17,8 +17,8 @@ OUTPUT_DIR = "/home/ftpuser/links/generated"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Weather and traffic API setup
-WEATHER_API_KEY = "4d910c65923b7fb05958bf5727ad81d9"
-TOMTOM_API_KEY = "rf4AQbwDITuFSKYePelocMnVmwN4lPyE"
+WEATHER_API_KEY = "put open weather api here"
+TOMTOM_API_KEY = "put tom tom api here"
 CITIES = ["Dublin", "Cork", "Galway", "Donegal"]
 TRAFFIC_CITIES = {"Dublin": (53.349805, -6.26031), "Galway": (53.2707, -9.0568)}
 
